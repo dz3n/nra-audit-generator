@@ -17,7 +17,7 @@ class XmlConverter
         $xml = new \XMLWriter();
         $xml->openMemory();
         $xml->setIndent(true);
-        $xml->startDocument('1.0', 'windows-1251');
+        $xml->startDocument('1.0', 'utf-8');
         $xml->startElement('audit');
         $xml->writeElement('eik', $shop->getEik());
         $xml->writeElement('e_shop_n', $shop->getShopUniqueNumber());

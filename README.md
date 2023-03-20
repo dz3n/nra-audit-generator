@@ -1,7 +1,7 @@
 # NRA Orders Audit XML File Generator
 
 ## Install
-`composer require escapeboy/nra-audit-generator`
+`composer require dz3n/nra-audit-generator`
 
 ## Usage
 ```php
